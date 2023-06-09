@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.HURTAI" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#00FF00</item>
+        <item name="colorPrimaryVariant">#009900</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#00FF00</item>
+        <item name="colorSecondaryVariant">#009900</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Dark theme variant -->
+    <style name="Theme.HURTAI.Dark" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">#00FF00</item>
+        <item name="colorPrimaryVariant">#009900</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">#00FF00</item>
+        <item name="colorSecondaryVariant">#009900</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.HURTAI.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.HURTAI.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.HURTAI.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
